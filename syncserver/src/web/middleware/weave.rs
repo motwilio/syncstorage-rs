@@ -9,7 +9,7 @@ use actix_web::{
 
 use futures::future::{self, LocalBoxFuture, TryFutureExt};
 use syncserver_common::{X_LAST_MODIFIED, X_WEAVE_TIMESTAMP};
-use syncstorage_db_common::util::SyncTimestamp;
+use syncserver_db_common::util::SyncTimestamp;
 
 use crate::error::{ApiError, ApiErrorKind};
 use crate::web::DOCKER_FLOW_ENDPOINTS;
